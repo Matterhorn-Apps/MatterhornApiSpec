@@ -17,4 +17,4 @@ jobs:
         with:
             python-version: '3.x'
       - run: pip install openapi-spec-validator
-      - run: find ./specs/*.yaml | xargs python -m openapi-spec-validator
+      - run: find ./specs/*.yaml | xargs python -m openapi_spec_validator
